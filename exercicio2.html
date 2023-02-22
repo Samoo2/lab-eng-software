@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 2</title>
+    <script language="javascript" type="text/javascript">
+
+        let num = parseInt(prompt("Digite um número inteiro: "));
+        if (num === 1){
+            alert("Não é primo.")
+        }
+        else if (num === 2){
+            alert("É primo.")
+        }
+        else if(num > 2){
+            for(let i = 2; i < num; i++){
+                if(num % i === 0){
+                    alert("Não é primo.");
+                    break;
+                }
+                else {
+                    alert("É primo");
+                    break;
+                }
+            }
+        }
+        else {
+            alert("O número precisa ser positivo e inteiro.");
+        }
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

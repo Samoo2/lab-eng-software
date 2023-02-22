@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 4</title>
+
+    <script language="javascript" type="text/javascript">
+        let num;
+    do {
+             num = prompt("Digite um número inteiro e positivo: ");
+        }while(isNaN(num) || num <= 0);
+        let fat = 1;
+        if(Number(num)){
+            for(let i=1; i <= num;i++){
+                fat = fat*i;
+            }
+            alert("O fatorial de "+num+" é "+fat);
+        }
+        else{
+            alert("É preciso um número inteiro e positivo.");
+        }
+    </script>
+</head>
+<body> 
+</body>
+</html>

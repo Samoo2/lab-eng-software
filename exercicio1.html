@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 1</title>
+    <script language="javascript" type="text/javascript">
+        let dado = prompt("Digite um dado: " ); 
+
+        let confirmacao = confirm("Quer ver o tipo de dado? ")
+        if(confirmacao){
+
+            if(Number(dado)){
+                document.write("é um numero"); 
+            }
+            else if(dado == "true" || dado=="false" || dado=="True" || dado=="False"){
+                document.write("é booleano"); 
+            }
+            else if(dado.length==0){
+                document.write("é indefinido");
+            }
+            else{
+                document.write("é uma string");
+            }
+        }
+        else {
+            document.write("Obrigado por visitar."); 
+        }
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
