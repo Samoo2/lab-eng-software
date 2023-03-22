@@ -1,7 +1,3 @@
 # lab-eng-software
-Análise e Desenvolvimento de Sistemas, Fatec - Presidente Prudente
-
-Atividades de Javascript.
-
-
-( ☞ﾟヮﾟ)☞    ¯\_(ツ)_/¯
+💭 Atividades de Javascript.
+🎓Análise e Desenvolvimento de Sistemas - FATEC
