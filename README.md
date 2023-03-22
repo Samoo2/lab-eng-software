@@ -4,4 +4,4 @@ Análise e Desenvolvimento de Sistemas, Fatec - Presidente Prudente
 Atividades de Javascript.
 
 
-(☞ﾟヮﾟ)☞   ¯\_(ツ)_/¯
+( ☞ﾟヮﾟ)☞    ¯\_(ツ)_/¯
