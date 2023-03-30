@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <title>Document</title>
+    <style>  
+        #root {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 48px;
+            font-family: Arial, sans-serif;
+            color: #000000;
+            text-shadow: 2px 2px 2px #fffafa;
+        }
+    </style>
+</head>
+<body>
+    <div id="root">
+        <div class="conainer">
+            <script type="text/babel">
+                const frase = "Venha Estudar na Fatec";
+                let i = 0;
+                let substring = "";
+            
+                function mostrarFrase() {
+                    substring = frase.substring(0, i);
+                    ReactDOM.render(substring, document.getElementById('root'));
+                    i++;
+                    if (i > frase.length) {
+                        i = 0;
+                    }
+                }
+            
+                setInterval(mostrarFrase, 200);
+            </script>
+    </div>
+</body>
+</html>
+
+
+
+
+
